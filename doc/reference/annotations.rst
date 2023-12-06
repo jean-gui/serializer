@@ -271,8 +271,8 @@ should be inlined.
 objects with this annotation. Also, AccessorOrder will be using the name of the property
 to determine the order.
 
-@ReadOnly
-~~~~~~~~~
+@ReadOnlyAnnotation
+~~~~~~~~~~~~~~~~~~~
 This annotation can be defined on a property to indicate that the data of the property
 is read only and cannot be set during deserialization.
 
